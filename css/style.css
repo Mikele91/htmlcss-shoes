@@ -39,11 +39,15 @@ a{
     text-align: center; 
     line-height:40px ;
     font-weight: bold;
-    box-shadow: 0px 5px #888888;    
+    box-shadow: 0px 5px 5px #888888;    
+    /* primo valore sfumatura asse orrizionale 2 verticale e 3 è la sfumatura e poi colore */
 }
 /* hover sui bottoni */
 li a:hover{
     background-color: blue;
+    transform: scale(1.2);
+    /* serve per zummare l'oggetto  */
+
 }
 
 
@@ -55,7 +59,7 @@ li a:hover{
     color:green;
 }
 section{
-    height: 150vh; 
+    height: 100vh; 
 }
 
 .parte-1{
